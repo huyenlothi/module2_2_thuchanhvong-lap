@@ -13,10 +13,8 @@ public class tinhtienlai {
         System.out.println("Enter annual interest rate in percentage: ");
         interset_rate = input.nextDouble();
 
-        double total_interset =0;
-        for( int i=1; i<= month ; i++) {
-             total_interset = money*(interset_rate/100)/12*month;
-        }
+        double total_interset = money*(interset_rate/100)/12*month;
+
         System.out.println("Total of interset: " + total_interset);
     }
 }
